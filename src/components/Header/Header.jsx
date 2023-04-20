@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 export default function Header() {
@@ -6,11 +7,21 @@ export default function Header() {
     <div className='bg-blue-400	h-[60px] text-black  p-[10px] font-mono	'>
       <p className='text-[32px] text-center mt-[-8px]'>Benoît ZENONE</p>
       <div className='flex justify-end mt-[-35px] text-[20px]'>
-        <button className='ml-[20px]'>Accueil</button>
-        <button className='ml-[20px]'>Profil</button>
-        <button className='ml-[20px]'>Compétences</button>
-        <button className='ml-[20px]'>Projets</button>
-        <button className='ml-[20px]'>Contact</button>
+        <Link to='/' className='ml-[20px]'>
+          Accueil
+        </Link>
+        <Link to='/profil' className='ml-[20px]'>
+          Profil
+        </Link>
+        <Link to='/skills' className='ml-[20px]'>
+          Compétences
+        </Link>
+        <Link to='/projects' className='ml-[20px]'>
+          Projets
+        </Link>
+        <Link to='/contact' className='ml-[20px]'>
+          Contact
+        </Link>
         <button>
           <BsLinkedin className='ml-[20px] w-[25px] h-[25px] mt-[-3px] mr-[20px]' />
         </button>
