@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className='bg-blue-400	h-[60px] text-black  p-[10px] font-mono	'>
       <p className='text-[32px] text-center mt-[-8px]'>Benoît ZENONE</p>
-      <div className='flex justify-end mt-[-35px] text-[20px]'>
+      <div className='flex justify-end mt-[-35px] text-[16px]'>
         <Link to='/' className='ml-[20px]'>
           Accueil
         </Link>

@@ -9,7 +9,7 @@ function Profil() {
     saveAs(CV, 'CV.pdf');
   };
   return (
-    <div className='font-mono text-[42px] ml-[190px] mt-[100px] mr-[190px]'>
+    <div className='font-mono text-[34px] ml-[190px] mt-[100px] mr-[190px]'>
       <div className='flex ml-[30px]'>
         <img src={Moi} alt='moi' className='w-[288px] h-[303px] mt-[60px]' />
         <p className='ml-[50px] mt-[50px]'>
@@ -35,9 +35,9 @@ function Profil() {
       <h1 className='text-center text-[50px] text-bold underline ml-[150px]'>
         Mon CV
       </h1>
-      <img src={CVimg} alt='cv' className='ml-[40%] mt-[40px] mb-[10px]' />
+      <img src={CVimg} alt='cv' className='ml-[35%] mt-[40px] mb-[10px]' />
       <button
-        className='w-[176px] h-[71px] rounded-lg text-[25px] bg-blue-500 text-black ml-[50%] mb-[40px]'
+        className='w-[176px] h-[71px] rounded-lg text-[20px] bg-blue-500 text-black ml-[48%] mb-[40px]'
         onClick={handleDownload}
       >
         Télécharger le CV

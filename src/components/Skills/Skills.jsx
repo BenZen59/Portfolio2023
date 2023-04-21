@@ -76,7 +76,7 @@ const logos = [
 function Skills() {
   return (
     <>
-      <h1 className='text-[64px] font-bold font-mono text-black m-[10px]'>
+      <h1 className='text-[50px] font-bold font-mono text-black m-[10px]'>
         Mes compétences
       </h1>
       <div className='flex flex-wrap font-mono'>

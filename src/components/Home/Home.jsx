@@ -6,7 +6,7 @@ import Moi from '../../img/photomoi.png';
 
 function Home() {
   return (
-    <div className='font-mono text-[42px] ml-[190px] mt-[100px] mr-[190px]'>
+    <div className='font-mono text-[34px] ml-[190px] mt-[100px] mr-[190px]'>
       <div className='flex ml-[30px]'>
         <img src={Moi} alt='moi' />
         <p className='ml-[50px] mt-[50px]'>
