@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className='font-mono text-[34px] ml-[190px] mt-[100px] mr-[190px]'>
       <div className='flex ml-[30px]'>
-        <img src={Moi} alt='moi' />
+        <img src={Moi} alt='moi' className='w-[162px] h-[162px] mt-[50px]' />
         <p className='ml-[50px] mt-[50px]'>
           Bonjour, je suis{' '}
           <span className='text-bold text-blue-500'>Benoît</span>, développeur
