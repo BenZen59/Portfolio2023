@@ -5,12 +5,14 @@ import Profil from './components/Profil/Profil';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
+import MenuBurger from './components/MenuBurger/MenuBurger';
 
 function App() {
   return (
     <div className='App'>
       <BrowserRouter>
         <Header />
+        <MenuBurger />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/profil' element={<Profil />} />
