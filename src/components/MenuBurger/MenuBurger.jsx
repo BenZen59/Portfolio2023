@@ -29,7 +29,7 @@ export default function MenuBurger() {
             </Link>
           </div>
           <div className='mt-[5px]'>
-            <Link to='/ rojects' className='ml-[20px]'>
+            <Link to='/projects' className='ml-[20px]'>
               • Projets
             </Link>
           </div>
