@@ -12,10 +12,7 @@ export default function Header() {
         <Link to='/profil' className='ml-[20px]'>
           Profil
         </Link>
-        <Link
-          to='/skills'
-          className='npm i --save-dev @types/react-burger-menuml-[20px]'
-        >
+        <Link to='/skills' className='ml-[20px]'>
           Compétences
         </Link>
         <Link to='/projects' className='ml-[20px]'>

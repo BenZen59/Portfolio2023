@@ -10,7 +10,7 @@ export default function MenuBurger() {
     setMenuOpen(true);
   };
   return (
-    <div className='md:hidden'>
+    <div className='md:hidden h-[100px] w-auto bg-blue-400'>
       <Menu isOpen={menuOpen} width='60%'>
         <div className='text-gray-400 flex flex-col font-mono text-2xl'>
           <div>
