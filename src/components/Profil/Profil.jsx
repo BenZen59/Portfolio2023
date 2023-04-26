@@ -9,9 +9,13 @@ function Profil() {
     saveAs(CV, 'CV.pdf');
   };
   return (
-    <div className='font-mono text-[34px] ml-[190px] mt-[100px] mr-[190px]'>
-      <div className='flex ml-[30px]'>
-        <img src={Moi} alt='moi' className='w-[162px] h-[162px] mt-[50px]' />
+    <div className='font-mono text-[34px] max-md:text-[24px] ml-[190px] mt-[100px] max-md:mt-[0px] mr-[190px] max-md:mr-[5px]'>
+      <div className='flex ml-[30px] max-md:ml-[-180px]'>
+        <img
+          src={Moi}
+          alt='moi'
+          className='w-[162px] h-[162px] mt-[50px] max-md:w-[102px] h-[102px] mt-[50px]'
+        />
         <p className='ml-[50px] mt-[50px]'>
           Bonjour, je suis{' '}
           <span className='text-bold text-blue-500'>Benoît</span>, développeur
@@ -32,12 +36,16 @@ function Profil() {
           <span className='text-bold text-blue-500'>Wild Code School</span>.
         </p>
       </div>
-      <h1 className='text-center text-[50px] text-bold underline ml-[150px]'>
+      <h1 className='text-center text-[50px] text-bold underline ml-[150px] max-md:ml-[-120px]'>
         Mon CV
       </h1>
-      <img src={CVimg} alt='cv' className='ml-[35%] mt-[40px] mb-[10px]' />
+      <img
+        src={CVimg}
+        alt='cv'
+        className='ml-[35%] mt-[40px] mb-[10px] max-md:ml-[-60px]'
+      />
       <button
-        className='w-[176px] h-[71px] rounded-lg text-[20px] bg-blue-500 text-black ml-[48%] mb-[40px]'
+        className='w-[176px] h-[71px] rounded-lg text-[20px] bg-blue-500 text-black ml-[48%] mb-[40px] max-md:ml-[-40px]'
         onClick={handleDownload}
       >
         Télécharger le CV

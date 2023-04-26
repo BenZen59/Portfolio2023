@@ -11,7 +11,7 @@ function Home() {
         <img
           src={Moi}
           alt='moi'
-          className='w-[162px] h-[162px] max-md:w-[102px] h-[102px] mt-[50px]'
+          className='w-[162px] h-[162px] max-md:w-[102px] max-md:h-[102px] mt-[50px]'
         />
         <p className='ml-[50px] mt-[50px] max-md:ml-[15px]'>
           Bonjour, je suis{' '}

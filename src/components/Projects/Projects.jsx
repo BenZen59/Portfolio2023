@@ -74,7 +74,7 @@ function Projects() {
       </h1>
       <div className='flex flex-wrap font-mono'>
         {projets.map((projet) => (
-          <div className='bg-zinc-800 px-20 py-20 rounded-lg border-solid border-2 border-gray-500 m-[10px] w-[783px] h-[344px] '>
+          <div className='bg-zinc-800 px-20 py-20 rounded-lg border-solid border-2 border-gray-500 m-[10px] w-[783px] max-md:w-[392px] max-md:h-auto h-[344px] '>
             <h4 className='absolute text-gray-400 text-[18px] font-bold ml-[-60px] mt-[-70px]'>
               {projet.name}
             </h4>
@@ -87,7 +87,7 @@ function Projects() {
             <p className='text-gray-400 text-[18px] font-bold  mt-[10px]'>
               {projet.description}
             </p>
-            <div className='flex '>
+            <div className='flex max-md:flex-wrap '>
               {projet.techno.map((tech, index) => (
                 <div
                   className='bg-blue-500 border-solid border-2 border-blue-500 mt-[10px] text-[18px] text-zinc-800 w-auto h-[30px] pl-[2px] pr-[2px] text-center rounded-lg mr-[10px]'
