@@ -16,7 +16,7 @@ function Profil() {
           alt='moi'
           className='w-[162px] h-[162px] mt-[50px] max-md:w-[102px] h-[102px] mt-[50px]'
         />
-        <p className='ml-[50px] mt-[50px]'>
+        <p className='ml-[50px] mt-[50px] max-md:ml-[15px]'>
           Bonjour, je suis{' '}
           <span className='text-bold text-blue-500'>Benoît</span>, développeur
           Fullstack (React, Node, Java), j'ai commencer à coder durant mon
@@ -36,16 +36,16 @@ function Profil() {
           <span className='text-bold text-blue-500'>Wild Code School</span>.
         </p>
       </div>
-      <h1 className='text-center text-[50px] text-bold underline ml-[150px] max-md:ml-[-120px]'>
+      <h1 className='text-center text-[50px] text-bold underline ml-[150px] max-md:ml-[-140px] max-md:text-[35px]'>
         Mon CV
       </h1>
       <img
         src={CVimg}
         alt='cv'
-        className='ml-[35%] mt-[40px] mb-[10px] max-md:ml-[-60px]'
+        className='ml-[35%] mt-[40px] mb-[10px] max-md:ml-[-70px] max-md:mt-[10px]'
       />
       <button
-        className='w-[176px] h-[71px] rounded-lg text-[20px] bg-blue-500 text-black ml-[48%] mb-[40px] max-md:ml-[-40px]'
+        className='w-[176px] h-[71px] rounded-lg text-[20px] max-md:text-[16px] bg-blue-500 text-black ml-[48%] mb-[40px] max-md:ml-[-70px]'
         onClick={handleDownload}
       >
         Télécharger le CV

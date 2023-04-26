@@ -25,17 +25,17 @@ function Home() {
 
       <div className='flex flex-wrap mt-[50px] max-md:ml-[-100px] max-md:mt-[10px]'>
         <img
-          className='w-[360px] h-[360px] max-md:w-[102px] max-md:h-[102px]'
+          className='w-[360px] h-[360px] max-md:w-[82px] max-md:h-[82px]'
           src={ReactLogo}
           alt='reactlogo'
         />
         <img
-          className='w-1/4 h-1/4 max-md:w-[102px] max-md:h-[102px]'
+          className='w-1/4 h-1/4 max-md:w-[82px] max-md:h-[82px]'
           src={NodeLogo}
           alt='reactlogo'
         />
         <img
-          className='w-1/4 h-1/4 max-md:w-[102px] max-md:h-[102px]'
+          className='w-1/4 h-1/4 max-md:w-[82px] max-md:h-[82px] max-md:mb-[20px]'
           src={JavaLogo}
           alt='reactlogo'
         />

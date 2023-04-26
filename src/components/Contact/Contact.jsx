@@ -6,8 +6,8 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 function Contact() {
   return (
-    <div className='bg-zinc-800 px-20 py-20 rounded-lg border-solid border-2 border-gray-500 m-[25%] w-[423px] h-[284px] max-md:w-[403px] text-gray-400 font-mono mx-auto mt-[260px]'>
-      <h4 className='absolute text-gray-400 text-[48px] font-bold ml-[-60px] mt-[-70px]'>
+    <div className='bg-zinc-800 px-20 py-20 rounded-lg border-solid border-2 border-gray-500 m-[25%]  w-[423px] h-[284px] max-md:w-[403px] text-gray-400 font-mono mx-auto mt-[150px]'>
+      <h4 className='absolute text-gray-400 text-[48px] font-bold ml-[-60px] mt-[-70px] max-md:text-[45px]'>
         ZENONE Benoît
       </h4>
       <div className='flex ml-[-65px]'>

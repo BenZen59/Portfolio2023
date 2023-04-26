@@ -3,16 +3,13 @@ import { Link } from 'react-router-dom';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { slide as Menu } from 'react-burger-menu';
 import './MenuBurger.css';
+
 export default function MenuBurger() {
   const [menuOpen, setMenuOpen] = useState(false);
-
-  const handleMenuOpen = () => {
-    setMenuOpen(true);
-  };
   return (
     <div className='md:hidden h-[100px] w-auto bg-blue-400'>
       <Menu isOpen={menuOpen} width='60%'>
-        <div className='text-gray-400 flex flex-col font-mono text-2xl'>
+        <div className='text-gray-400 flex flex-col font-mono text-[20pxl]'>
           <div>
             <Link to='/' className='ml-[20px]'>
               • Accueil
