@@ -76,10 +76,10 @@ const logos = [
 function Skills() {
   return (
     <>
-      <h1 className='text-[50px] font-bold font-mono text-black m-[10px]'>
+      <h1 className='text-[50px] font-bold font-mono text-black mt-[10px] ml-[120px]'>
         Mes compétences
       </h1>
-      <div className='flex flex-wrap font-mono'>
+      <div className='flex flex-wrap font-mono ml-[7%]'>
         {logos.map((logo) => (
           <div className='bg-zinc-800 px-20 py-20 rounded-lg border-solid border-2 border-gray-500 m-[10px] '>
             <h4 className='absolute text-gray-400 text-[18px] font-bold ml-[-60px] mt-[-70px]'>

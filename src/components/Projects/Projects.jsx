@@ -6,10 +6,19 @@ import Project4 from '../../img/projet4.png';
 import Project5 from '../../img/projet5.png';
 import Project6 from '../../img/projet6.png';
 import Project7 from '../../img/projet7.png';
+import Project8 from '../../img/projet8.png';
 
 const projets = [
   {
     id: 1,
+    src: Project8,
+    alt: 'projet8',
+    name: 'HappyRoad',
+    description: 'Site de covoiturage en React/Java',
+    techno: ['React', 'Java', 'Tailwind'],
+  },
+  {
+    id: 2,
     src: Project1,
     alt: 'projet1',
     name: 'Site cinéma japonais classique',
@@ -17,7 +26,7 @@ const projets = [
     techno: ['React', 'CSS'],
   },
   {
-    id: 1,
+    id: 3,
     src: Project2,
     alt: 'projet2',
     name: 'Wild Market',
@@ -25,7 +34,7 @@ const projets = [
     techno: ['JS', 'CSS'],
   },
   {
-    id: 3,
+    id: 4,
     src: Project3,
     alt: 'projet3',
     name: 'KeepN',
@@ -33,7 +42,7 @@ const projets = [
     techno: ['React', 'CSS'],
   },
   {
-    id: 4,
+    id: 5,
     src: Project4,
     alt: 'projet4',
     name: 'Site Vitrine Ophtalmologue',
@@ -41,7 +50,7 @@ const projets = [
     techno: ['React', 'CSS', 'Node', 'mySQL', 'Express', 'React-admin'],
   },
   {
-    id: 5,
+    id: 6,
     src: Project5,
     alt: 'projet5',
     name: 'CartFood',
@@ -49,7 +58,7 @@ const projets = [
     techno: ['React', 'CSS'],
   },
   {
-    id: 6,
+    id: 7,
     src: Project6,
     alt: 'projet6',
     name: 'WatchCritique',
@@ -57,7 +66,7 @@ const projets = [
     techno: ['React', 'CSS', 'Node', 'mySQL', 'Express'],
   },
   {
-    id: 7,
+    id: 8,
     src: Project7,
     alt: 'projet7',
     name: 'MovieIncubateur',
