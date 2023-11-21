@@ -13,7 +13,7 @@ function Contact() {
       <div className='flex ml-[-65px]'>
         <img src={Moi} alt='moi' className='w-[162px] h-[162px] mt-[10px]' />
         <p className='mt-[25px] ml-[10px] text-[16px] max-md:text-[14px]'>
-          Développeur full stack
+          Développeur React, Java, Node
           <br />
           <div className='flex'>
             <AiOutlineMail className='mt-[4px]' />{' '}

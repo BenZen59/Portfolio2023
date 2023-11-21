@@ -21,13 +21,13 @@ function Profil() {
           <span className='text-bold text-blue-500'>Benoît</span>, développeur
           Fullstack (React, Node, Java), j'ai commencer à coder durant mon
           adoslence par le biais du moteur de jeu{' '}
-          <span className='text-bold text-blue-500'>RPG MAKER</span> par le bias
-          d'un système d'événement inclus dans le logiciel, j'ai égaler fait mes
+          <span className='text-bold text-blue-500'>RPG MAKER</span> grâce à un
+          système d'événement inclus dans le logiciel, j'ai également fait mes
           1er pas sur le langage ruby. Après mon Bac STI GEL (génie
           électronique), j'ai intégré l'école{' '}
           <span className='text-bold text-blue-500'>EXIA.CESI</span> durant 2
           ans et j'en suis resorti avec un diplôme d'analyste programmeur. Je
-          suis encore parti en{' '}
+          suis ensuite parti en{' '}
           <span className='text-bold text-blue-500'>Angleterre </span>
           pendant un séjour de 6 mois afin de perfectionner mon anglais. J'ai
           ensuite fait des études de vendeur librairie avant de revenir dans le

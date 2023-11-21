@@ -5,10 +5,11 @@ import JSLogo from '../../img/javascript.svg';
 import NodeLogo from '../../img/node.svg';
 import ReactLogo from '../../img/react.svg';
 import ReduxLogo from '../../img/redux.svg';
-import SqlLogo from '../../img/sql.svg';
+import SqlLogo from '../../img/sqlserver.png';
 import SpringLogo from '../../img/spring.png';
 import ExpressLogo from '../../img/express.png';
 import TailwindLogo from '../../img/tailwind.png';
+import JavaFxLogo from '../../img/javafx.png';
 
 const logos = [
   {
@@ -61,15 +62,21 @@ const logos = [
   },
   {
     id: 9,
+    src: JavaFxLogo,
+    alt: 'javafx',
+    name: 'JavaFX',
+  },
+  {
+    id: 10,
     src: SpringLogo,
     alt: 'spring',
     name: 'Spring Boot',
   },
   {
-    id: 10,
+    id: 11,
     src: SqlLogo,
     alt: 'sql',
-    name: 'mySQL',
+    name: 'SQL Server',
   },
 ];
 
