@@ -7,6 +7,8 @@ import Project5 from '../../img/projet5.png';
 import Project6 from '../../img/projet6.png';
 import Project7 from '../../img/projet7.png';
 import Project8 from '../../img/projet8.png';
+import Project9 from '../../img/projet9.png';
+import Project10 from '../../img/projet10.png';
 
 const projets = [
   {
@@ -15,7 +17,7 @@ const projets = [
     alt: 'projet8',
     name: 'HappyRoad',
     description: 'Site de covoiturage en React/Java',
-    techno: ['React', 'Java', 'Tailwind'],
+    techno: ['React', 'Java', , 'Spring Boot', 'Tailwind'],
   },
   {
     id: 2,
@@ -72,6 +74,22 @@ const projets = [
     name: 'MovieIncubateur',
     description: "Site avec l'API TMDB et utilisation de Redux",
     techno: ['React', 'Redux', 'Tailwind'],
+  },
+  {
+    id: 9,
+    src: Project9,
+    alt: 'projet9',
+    name: 'Address',
+    description: "Application en JavaFX de carnet d'adresse",
+    techno: ['Java', 'JavaFX', 'SceneBuilder'],
+  },
+  {
+    id: 10,
+    src: Project10,
+    alt: 'projet9',
+    name: 'CalculatriceJFX ',
+    description: 'Calculatrice en JavaFX',
+    techno: ['Java', 'JavaFX', 'SceneBuilder'],
   },
 ];
 
