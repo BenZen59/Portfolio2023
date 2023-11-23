@@ -96,7 +96,7 @@ const projets = [
 function Projects() {
   return (
     <>
-      <h1 className='text-[50px] font-bold font-mono text-black m-[10px]'>
+      <h1 className='text-[50px] font-bold font-mono text-black m-[10px] max-md:ml-[55px]'>
         Mes projets
       </h1>
       <div className='flex flex-wrap font-mono'>
