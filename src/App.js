@@ -6,6 +6,7 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import MenuBurger from './components/MenuBurger/MenuBurger';
+import './App.css';
 
 function App() {
   return (

@@ -16,16 +16,18 @@ function Home() {
         <p className='ml-[50px] mt-[50px] max-md:ml-[15px]'>
           Bonjour, je suis{' '}
           <span className='text-bold text-blue-500'>Benoît</span>, développeur
-          Fullstack (React, Node, Java) actuellement en recherche d'un emploi de
-          développeur à <span className='text-bold text-blue-500'>Lille</span>.
+          Fullstack (React, Node, Java) en formation{' '}
+          <span className='text-bold text-blue-500'>TP CDA</span> à l'AFPA,
+          actuellement en recherche d'un stage de développeur informatique sur{' '}
+          <span className='text-bold text-blue-500'>Lille</span>.
           <br />
           Ce site portfolio vous permettra d'en apprendre plus sur moi.
         </p>
       </div>
 
-      <div className='flex flex-wrap mt-[50px] max-md:ml-[-100px] max-md:mt-[10px]'>
+      <div className='flex flex-wrap mt-[50px] ml-[350px] max-md:ml-[-100px] max-md:mt-[10px]'>
         <img
-          className='w-[360px] h-[360px] max-md:w-[82px] max-md:h-[82px]'
+          className='w-[260px] h-[260px] max-md:w-[82px] max-md:h-[82px]'
           src={ReactLogo}
           alt='reactlogo'
         />
