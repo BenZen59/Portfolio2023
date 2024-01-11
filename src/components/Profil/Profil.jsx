@@ -9,7 +9,7 @@ function Profil() {
     saveAs(CV, 'CV.pdf');
   };
   return (
-    <div className='font-mono text-[34px] max-md:text-[24px] ml-[190px] mt-[100px] max-md:mt-[0px] mr-[190px] max-md:mr-[5px]'>
+    <div className='font-mono text-[24px] max-md:text-[24px] ml-[190px] mt-[100px] max-md:mt-[0px] mr-[190px] max-md:mr-[5px]'>
       <div className='flex ml-[30px] max-md:ml-[-180px]'>
         <img
           src={Moi}

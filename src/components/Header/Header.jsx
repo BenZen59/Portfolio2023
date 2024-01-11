@@ -4,8 +4,8 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs';
 export default function Header() {
   return (
     <div className='bg-blue-400	h-[60px] text-black p-[10px] font-mono max-md:hidden'>
-      <p className='text-[32px] text-center mt-[-8px]'>Benoît ZENONE</p>
-      <div className='flex justify-end mt-[-35px] text-[16px]'>
+      <p className='text-[32px] text-left mt-[-8px]'>Benoît ZENONE</p>
+      <div className='flex justify-end mt-[-40px] text-[25px] font-bold'>
         <Link to='/' className='ml-[20px]'>
           Accueil
         </Link>

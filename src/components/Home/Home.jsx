@@ -14,14 +14,24 @@ function Home() {
           className='w-[162px] h-[162px] max-md:w-[102px] max-md:h-[102px] mt-[50px]'
         />
         <p className='ml-[50px] mt-[50px] max-md:ml-[15px]'>
-          Bonjour, je suis{' '}
-          <span className='text-bold text-blue-500'>Benoît</span>, développeur
-          Fullstack (React, Node, Java) en formation{' '}
-          <span className='text-bold text-blue-500'>TP CDA</span> à l'AFPA,
-          actuellement en recherche d'un stage de développeur informatique sur{' '}
-          <span className='text-bold text-blue-500'>Lille</span>.
+          Bonjour, <span className='text-bold text-blue-500'>Je suis</span>{' '}
           <br />
-          Ce site portfolio vous permettra d'en apprendre plus sur moi.
+          <p>
+            <span className='text-bold text-blue-500'>Benoît</span>
+            <br />
+            <div className='text-[20px]'>
+              Développeur Fullstack (React, Node, Java)
+            </div>
+          </p>
+          <br />
+          <div className='text-[18px]'>
+            Actuellement en formation{' '}
+            <span className='text-bold text-blue-500'>TP CDA</span> à l'AFPA,
+            actuellement en recherche d'un stage de développeur informatique sur{' '}
+            <span className='text-bold text-blue-500'>Lille</span>.
+            <br />
+            Ce site portfolio vous permettra d'en apprendre plus sur moi.
+          </div>
         </p>
       </div>
 
