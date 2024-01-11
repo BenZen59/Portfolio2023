@@ -1,11 +1,15 @@
 import { Link } from 'react-router-dom';
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { MdComputer } from 'react-icons/md';
 
 export default function Header() {
   return (
     <div className='bg-blue-400	h-[60px] text-black p-[10px] font-mono max-md:hidden'>
-      <p className='text-[32px] text-left mt-[-8px]'>Benoît ZENONE</p>
-      <div className='flex justify-end mt-[-40px] text-[25px] font-bold'>
+      <p className='text-[32px] text-left mt-[-8px] flex'>
+        <MdComputer className='w-[50px] h-[50px] mr-1' />
+        Benoît ZENONE
+      </p>
+      <div className='flex justify-end mt-[-35px] text-[18px] font-bold'>
         <Link to='/' className='ml-[20px]'>
           Accueil
         </Link>
