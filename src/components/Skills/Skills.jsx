@@ -10,6 +10,7 @@ import SpringLogo from '../../img/spring.png';
 import ExpressLogo from '../../img/express.png';
 import TailwindLogo from '../../img/tailwind.png';
 import JavaFxLogo from '../../img/javafx.png';
+import DockerLogo from '../../img/docker.png';
 
 const logos = [
   {
@@ -77,6 +78,12 @@ const logos = [
     src: SqlLogo,
     alt: 'sql',
     name: 'SQL Server',
+  },
+  {
+    id: 12,
+    src: DockerLogo,
+    alt: 'docker',
+    name: 'Docker',
   },
 ];
 
