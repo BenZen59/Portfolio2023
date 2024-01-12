@@ -55,17 +55,17 @@ function Home() {
           </div>
         </p>
       </div>
-      <div className='flex justify-center mt-8'>
+      <div className='flex justify-center mt-8 max-md:ml-[-180px]'>
         {logos.map((logo) => (
-          <div className='bg-gray-400 h-[200px] w-[200px]  m-[10px] hover:bg-blue-400'>
-            <h4 className='absolute text-[24px] font-bold w-24 mt-28 ml-5'>
+          <div className='bg-gray-400 h-[200px] w-[200px] m-[10px] hover:bg-blue-400'>
+            <h4 className='absolute text-[24px] max-md:text-[13px] font-bold w-24 mt-28 ml-5 max-md:ml-3'>
               {logo.name}
             </h4>
             <img
               key={logo.id}
               src={logo.src}
               alt={logo.alt}
-              className='w-[48px] h-[48px] ml-3 mt-16'
+              className='w-[48px] h-[48px] max-md:w-[35px] max-md:h-[35px] ml-3 mt-16'
             />
           </div>
         ))}
