@@ -9,6 +9,7 @@ import Project7 from '../../img/projet7.png';
 import Project8 from '../../img/projet8.png';
 import Project9 from '../../img/projet9.png';
 import Project10 from '../../img/projet10.png';
+import Eye from '../../img/eye.png';
 
 const projets = [
   {
@@ -18,6 +19,7 @@ const projets = [
     name: 'HappyRoad',
     description: 'Site de covoiturage en React/Java',
     techno: ['React', 'Java', , 'Spring Boot', 'Tailwind'],
+    link: '',
   },
   {
     id: 2,
@@ -26,6 +28,7 @@ const projets = [
     name: 'Site cinéma japonais classique',
     description: 'Un site informatif sur le cinéma japonais',
     techno: ['React', 'CSS'],
+    link: 'https://mellifluous-cupcake-1f7075.netlify.app/',
   },
   {
     id: 3,
@@ -34,6 +37,7 @@ const projets = [
     name: 'Wild Market',
     description: 'Site e-commerce en JS, CSS',
     techno: ['JS', 'CSS'],
+    link: '',
   },
   {
     id: 4,
@@ -42,6 +46,7 @@ const projets = [
     name: 'KeepN',
     description: "Site avec l'API TMDB",
     techno: ['React', 'CSS'],
+    link: '',
   },
   {
     id: 5,
@@ -50,6 +55,7 @@ const projets = [
     name: 'Site Vitrine Ophtalmologue',
     description: 'Projet client pour un Ophtalmologue',
     techno: ['React', 'CSS', 'Node', 'mySQL', 'Express', 'React-admin'],
+    link: '',
   },
   {
     id: 6,
@@ -58,6 +64,7 @@ const projets = [
     name: 'CartFood',
     description: 'Système de panier pour commander de la nourriture',
     techno: ['React', 'CSS'],
+    link: 'https://github.com/BenZen59/CartFood',
   },
   {
     id: 7,
@@ -66,6 +73,7 @@ const projets = [
     name: 'WatchCritique',
     description: "Site avec l'API TMDB accompagner d'un back",
     techno: ['React', 'CSS', 'Node', 'mySQL', 'Express'],
+    link: 'https://github.com/BenZen59/WatchCritiqueClient',
   },
   {
     id: 8,
@@ -74,6 +82,7 @@ const projets = [
     name: 'MovieIncubateur',
     description: "Site avec l'API TMDB et utilisation de Redux",
     techno: ['React', 'Redux', 'Tailwind'],
+    link: 'https://benevolent-arithmetic-715e5c.netlify.app/',
   },
   {
     id: 9,
@@ -82,6 +91,7 @@ const projets = [
     name: 'Address',
     description: "Application en JavaFX de carnet d'adresse",
     techno: ['Java', 'JavaFX', 'SceneBuilder'],
+    link: 'https://github.com/BenZen59/Adress',
   },
   {
     id: 10,
@@ -90,6 +100,7 @@ const projets = [
     name: 'CalculatriceJFX ',
     description: 'Calculatrice en JavaFX',
     techno: ['Java', 'JavaFX', 'SceneBuilder'],
+    link: 'https://github.com/BenZen59/CalculatriceJFX',
   },
 ];
 
@@ -115,9 +126,21 @@ function Projects() {
               {projet.description}
             </p>
             <div className='flex max-md:flex-wrap '>
+              <a
+                href={projet.link}
+                target='_blank'
+                rel='noopener noreferrer'
+                title='Voir le projet'
+              >
+                <img
+                  src={Eye}
+                  alt={projet.name}
+                  className='w-9 h-9 mt-2 mr-8 cursor-pointer'
+                />
+              </a>
               {projet.techno.map((tech, index) => (
                 <div
-                  className='bg-blue-500 border-solid border-2 border-blue-500 mt-[10px] text-[18px] text-zinc-800 w-auto h-[30px] pl-[2px] pr-[2px] text-center rounded-lg mr-[10px]'
+                  className='bg-blue-400 border-solid border-2 border-blue-400 mt-[10px] text-[18px] text-zinc-800 w-auto h-[30px] pl-[2px] pr-[2px] text-center rounded-lg mr-[10px]'
                   key={index}
                 >
                   {tech}
