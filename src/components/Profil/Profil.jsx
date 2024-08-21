@@ -42,7 +42,7 @@ function Profil() {
       <img
         src={CVimg}
         alt='cv'
-        className='ml-[35%] mt-[40px] mb-[10px] max-md:ml-[-70px] max-md:mt-[10px]'
+        className='ml-[32%] mt-[40px] mb-[10px] max-md:ml-[-70px] max-md:mt-[10px]'
       />
       <button
         className='w-[176px] h-[71px] rounded-lg text-[20px] max-md:text-[16px] bg-blue-500 text-black ml-[48%] mb-[40px] max-md:ml-[-70px]'

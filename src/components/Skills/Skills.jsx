@@ -5,7 +5,9 @@ import JSLogo from '../../img/javascript.svg';
 import NodeLogo from '../../img/node.svg';
 import ReactLogo from '../../img/react.svg';
 import ReduxLogo from '../../img/redux.svg';
+import NextJSLogo from '../../img/nextjs.png'
 import SqlLogo from '../../img/sqlserver.png';
+import QuarkusLogo from '../../img/quarkus.jpg'
 import SpringLogo from '../../img/spring.png';
 import ExpressLogo from '../../img/express.png';
 import TailwindLogo from '../../img/tailwind.png';
@@ -57,30 +59,42 @@ const logos = [
   },
   {
     id: 8,
+    src: NextJSLogo,
+    alt: 'nextjs',
+    name: 'Next.JS',
+  },
+  {
+    id: 9,
     src: JavaLogo,
     alt: 'java',
     name: 'Java',
   },
   {
-    id: 9,
+    id: 10,
     src: JavaFxLogo,
     alt: 'javafx',
     name: 'JavaFX',
   },
   {
-    id: 10,
+    id: 11,
+    src: QuarkusLogo,
+    alt: 'quarkus',
+    name: 'Quarkus',
+  },
+  {
+    id: 12,
     src: SpringLogo,
     alt: 'spring',
     name: 'Spring Boot',
   },
   {
-    id: 11,
+    id: 13,
     src: SqlLogo,
     alt: 'sql',
     name: 'SQL Server',
   },
   {
-    id: 12,
+    id: 14,
     src: DockerLogo,
     alt: 'docker',
     name: 'Docker',

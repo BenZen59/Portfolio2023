@@ -9,10 +9,21 @@ import Project7 from '../../img/projet7.png';
 import Project8 from '../../img/projet8.png';
 import Project9 from '../../img/projet9.png';
 import Project10 from '../../img/projet10.png';
+import ProjectPizza from '../../img/projetpizza.png'
 import Eye from '../../img/eye.png';
 
-const projets = [{
-    id: 1,
+const projets = [
+    {
+        id: 1,
+        src: ProjectPizza,
+        alt: 'projetpizza',
+        name: "L'atelier pizza",
+        description: 'Application web pour commander des pizzas',
+        techno: ['React','Next.Js','Redux','Java', 'Quarkus', 'Tailwind'],
+        link: '',
+    },
+    {
+    id: 2,
     src: Project8,
     alt: 'projet8',
     name: 'HappyRoad',
@@ -20,7 +31,7 @@ const projets = [{
     techno: ['React', 'Java', , 'Spring Boot', 'Tailwind'],
     link: '',
 }, {
-    id: 2,
+    id: 3,
     src: Project1,
     alt: 'projet1',
     name: 'Site cinéma japonais classique',
@@ -28,7 +39,7 @@ const projets = [{
     techno: ['React', 'CSS'],
     link: 'https://cinemajap-c546z4lnm-benzen59s-projects.vercel.app/',
 }, {
-    id: 3,
+    id: 4,
     src: Project2,
     alt: 'projet2',
     name: 'Wild Market',
@@ -36,7 +47,7 @@ const projets = [{
     techno: ['JS', 'CSS'],
     link: '',
 }, {
-    id: 4,
+    id: 5,
     src: Project3,
     alt: 'projet3',
     name: 'KeepN',
@@ -44,7 +55,7 @@ const projets = [{
     techno: ['React', 'CSS'],
     link: '',
 }, {
-    id: 5,
+    id: 6,
     src: Project4,
     alt: 'projet4',
     name: 'Site Vitrine Ophtalmologue',
@@ -52,7 +63,7 @@ const projets = [{
     techno: ['React', 'CSS', 'Node', 'mySQL', 'Express', 'React-admin'],
     link: '',
 }, {
-    id: 6,
+    id: 7,
     src: Project5,
     alt: 'projet5',
     name: 'CartFood',
@@ -60,7 +71,7 @@ const projets = [{
     techno: ['React', 'CSS'],
     link: 'https://github.com/BenZen59/CartFood',
 }, {
-    id: 7,
+    id: 8,
     src: Project6,
     alt: 'projet6',
     name: 'WatchCritique',
@@ -68,7 +79,7 @@ const projets = [{
     techno: ['React', 'CSS', 'Node', 'mySQL', 'Express'],
     link: 'https://github.com/BenZen59/WatchCritiqueClient',
 }, {
-    id: 8,
+    id: 9,
     src: Project7,
     alt: 'projet7',
     name: 'MovieIncubateur',
@@ -76,7 +87,7 @@ const projets = [{
     techno: ['React', 'Redux', 'Tailwind'],
     link: 'https://movie-incubateur-ii8ngxsfv-benzen59s-projects.vercel.app/',
 }, {
-    id: 9,
+    id: 10,
     src: Project9,
     alt: 'projet9',
     name: 'Address',
@@ -84,7 +95,7 @@ const projets = [{
     techno: ['Java', 'JavaFX', 'SceneBuilder'],
     link: 'https://github.com/BenZen59/Adress',
 }, {
-    id: 10,
+    id: 11,
     src: Project10,
     alt: 'projet9',
     name: 'CalculatriceJFX ',
