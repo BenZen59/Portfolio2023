@@ -1,6 +1,7 @@
 import React from 'react';
 import Moi from '../../img/photomoi.png';
 import MiniReactLogo from '../../img/react_mini_icone.png';
+import MiniNodeLogo from '../../img/node_mini_icone.png'
 import MiniJavaLogo from '../../img/java_mini_icone.png';
 import MiniWebLogo from '../../img/web_mini_logo.png';
 
@@ -13,12 +14,18 @@ const logos = [
   },
   {
     id: 2,
+    src: MiniNodeLogo,
+    alt: 'node',
+    name: 'Développeur Node',
+  },
+  {
+    id: 3,
     src: MiniJavaLogo,
     alt: 'java',
     name: 'Développeur Java',
   },
   {
-    id: 3,
+    id: 4,
     src: MiniWebLogo,
     alt: 'web',
     name: 'Développeur web',
@@ -46,10 +53,9 @@ function Home() {
           </p>
           <br />
           <div className='text-[18px]'>
-            Actuellement en formation{' '}
-            <span className='text-bold text-blue-500'>TP CDA</span> à l'AFPA,
-            actuellement en recherche d'un stage de développeur informatique sur{' '}
-            <span className='text-bold text-blue-500'>Lille</span>.
+            Actuellement diplômé d'un{' '}
+            <span className='text-bold text-blue-500'>Titre Profesionnel Concepteur Développeur d'Application</span>,
+            je suis actuellement à la recherche de mon premier emploi sur <span className='text-bold text-blue-500'>Lille</span>, et je suis particulièrement motivé à l’idée de débuter ma carrière.
             <br />
             Ce site portfolio vous permettra d'en apprendre plus sur moi.
           </div>
