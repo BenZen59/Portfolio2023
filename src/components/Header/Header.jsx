@@ -19,6 +19,9 @@ export default function Header() {
         <Link to='/skills' className='ml-[20px]'>
           Compétences
         </Link>
+        <Link to='/experiences' className='ml-[20px]'>
+          Expériences
+        </Link>
         <Link to='/projects' className='ml-[20px]'>
           Projets
         </Link>
