@@ -8,6 +8,7 @@ import Contact from "./components/Contact/Contact";
 import MenuBurger from "./components/MenuBurger/MenuBurger";
 import Experience from "./components/Experience/Experience";
 import "./App.css";
+import Formation from "./components/Formation/Formation";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/profil" element={<Profil />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="experiences" element={<Experience />} />
+          <Route path="/experiences" element={<Experience />} />
+          <Route path="/formations" element={<Formation />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
