@@ -20,7 +20,7 @@ const projets = [
     name: "L'atelier pizza",
     description: "Application web pour commander des pizzas",
     techno: ["React", "Next.Js", "Redux", "Java", "Quarkus", "Tailwind"],
-    link: "",
+    link: "https://github.com/BenZen59/pizza-front",
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const projets = [
     name: "Wild Market",
     description: "Site e-commerce en JS, CSS",
     techno: ["JS", "CSS"],
-    link: "",
+    link: "https://github.com/BenZen59/wildmarket",
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const projets = [
     name: "KeepN",
     description: "Site avec l'API TMDB",
     techno: ["React", "CSS"],
-    link: "",
+    link: "https://github.com/WildCodeSchool/p2-g2-sept21-lille-react-Videotheque",
   },
   {
     id: 6,
@@ -135,19 +135,21 @@ function Projects() {
             <p className="text-gray-400 text-[18px] font-bold  mt-[10px]">
               {projet.description}
             </p>
-            <div className="flex max-md:flex-wrap ">
-              <a
-                href={projet.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Voir le projet"
-              >
-                <img
-                  src={Eye}
-                  alt={projet.name}
-                  className="w-9 h-9 mt-2 mr-8 cursor-pointer"
-                />
-              </a>
+            <div className="flex max-md:flex-wrap">
+              {projet.link && (
+                <a
+                  href={projet.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Voir le projet"
+                >
+                  <img
+                    src={Eye}
+                    alt={projet.name}
+                    className="w-9 h-9 mt-2 mr-8 cursor-pointer"
+                  />
+                </a>
+              )}
               {projet.techno.map((tech, index) => (
                 <div
                   className="bg-blue-400 border-solid border-2 border-blue-400 mt-[10px] text-[18px] text-zinc-800 w-auto h-[30px] pl-[2px] pr-[2px] text-center rounded-lg mr-[10px]"
